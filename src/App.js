@@ -1,10 +1,11 @@
 import './App.css';
-import {Profile} from './Profile';
+import {Counter} from './Counter';
+import {UseRefDefault} from './useRefExamples';
 
 function App() {
   return (
     <div className="App">
-      <Profile />
+      <UseRefDefault />
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React, {Fragment, useState} from 'react';
 
-export function Profile(props){
+export function Counter(props){
     const [cnt, setCounter] = useState(0);
 
     function addToCounter() {
